@@ -1,13 +1,13 @@
 import React from 'react';
-import '../styles/Inicial.css';
+import '../styles/Home.css';
 
 
 
-export default function Inicial() {
+export default function Home() {
   return (
     <div>
 
-      <div class="header-inicio">
+      <div class="header-Home">
         <h1>Restaurante Example</h1>
         <div class="descricao">
           <p>Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>

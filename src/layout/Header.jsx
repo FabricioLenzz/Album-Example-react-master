@@ -8,12 +8,11 @@ function Header() {
   return (  
     <Navbar expand="lg" style={headerStyle}>
       <Container fluid>
-        <Nav.Link href="/" style={headerStyle}>Ádamo Restaurante</Nav.Link>
+        <Nav.Link href="/" style={headerStyle}>Canteiro da Erva</Nav.Link>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           <Nav>
-            <Nav.Link href="/produtos" style={headerStyle}>Produtos</Nav.Link>
-            <Nav.Link href="/Contatos" style={headerStyle}>Contato</Nav.Link>
+            <Nav.Link href="/tempo" style={headerStyle}>Tempo</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
@@ -23,13 +22,13 @@ function Header() {
 
 
 const headerStyle = {
-  color: '#f2f2f2',
+  color: '#Black',
   marginRight: '1.5rem',
-  backgroundColor: '#ff4500',
+  backgroundColor: '#00ccff',
 };
 
 const brandStyle = {
-  color: '#f2f2f2',
+  color: '#00ccff',
   fontWeight: 'bold',
 };
 
